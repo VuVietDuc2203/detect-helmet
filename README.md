@@ -8,8 +8,8 @@
 
 
 
-2. **Dự đoán Phần Đầu Bằng Labelling Tool**
-   - Dùng công cụ labelling để dự đoán phần đầu của người trong các frame đã trích xuất.
+2. **Gắn nhãn helmet và non_helmet**
+   - Dùng công cụ labelling tool để đánh nhãn phần đầu của người trong các frame đã trích xuất.
 
 3. **Cắt Hình Ảnh**
    - Sau khi dự đoán xong, chạy file `crop_img.py` từ thư mục chứa các frame đã dự đoán để cắt các ảnh có ID 2 (helmet) và ID 3 (non_helmet).
